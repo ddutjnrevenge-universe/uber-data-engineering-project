@@ -1,6 +1,3 @@
--- Find top 10 pickup locations based on number of trips
--- Find total number of trips by passenger count
--- Find avg fare amount by hour of the day
 CREATE OR REPLACE TABLE `ddutjrevenge-data-engineering.uber_data_engineering_yt.tbl_analytics` AS (
 SELECT 
 f.trip_distance_id,
